@@ -1,0 +1,19 @@
+form{
+    width: 40%;
+    font-size:larger;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+.form-group{
+    padding: 10px;
+
+}
+h3{
+    margin-left: 90px;
+}
+button{
+    margin-left: 200px;
+    width: 140px;
+}

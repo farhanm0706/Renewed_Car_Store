@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    </head>
+    <body>
+        <div id="navbar">
+            <ul>
+                <li><a class="renew"(click)="changeView1()" >Renew Car Store</a></li>
+                <li><a class="same" (click)="changeView()" routerLink="home">Home</a></li>
+                <li><a class="same"(click)="changeView()" routerLink="carslist">View Cars</a></li>
+                <li><a class="same" (click)="changeView()" routerLink="location">Orders</a></li>
+                <li><a class="same"(click)="changeView()" routerLink="about">About</a></li>
+
+                <li><a  class="same" (click)="changeView()" routerLink="contactus">Contact Us</a></li>
+                <li><a href="/login" class="btn "><i class="fa-solid fa-user-plus"></i>SignUp/Login</a></li>    </ul>
+        </div>
+        
+        <img *ngIf="imgVisible" src="https://cdn.pixabay.com/photo/2019/02/21/14/07/handshake-4011416__480.jpg" alt="">
+        
+    </body>
+</html>
